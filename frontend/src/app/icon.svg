@@ -1,0 +1,43 @@
+<svg
+  width="128"
+  height="128"
+  viewBox="0 0 128 128"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- 背景圆角矩形 -->
+  <rect width="128" height="128" rx="28" fill="#1D6F42"/>
+
+  <!-- 单元格边框 -->
+  <rect
+    x="30"
+    y="30"
+    width="68"
+    height="68"
+    rx="8"
+    stroke="white"
+    stroke-width="8"
+    stroke-opacity="0.9"
+  />
+
+  <!-- 内部填充逻辑（象征处理中） -->
+  <rect
+    x="42"
+    y="42"
+    width="20"
+    height="20"
+    rx="2"
+    fill="white"
+    fill-opacity="0.8"
+  />
+
+  <!-- 魔法闪烁图标 (代表 AI/清洗) -->
+  <path
+    d="M95 35L97.5 42.5L105 45L97.5 47.5L95 55L92.5 47.5L85 45L92.5 42.5L95 35Z"
+    fill="#FACC15"
+  />
+  <path
+    d="M108 20L109.5 24.5L114 26L109.5 27.5L108 32L106.5 27.5L102 26L106.5 24.5L108 20Z"
+    fill="#FACC15"
+  />
+</svg>
